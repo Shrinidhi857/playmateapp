@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:playmateapp/pages/ForgetPasswordPage.dart';
 import 'package:playmateapp/pages/HomePage.dart';
+import 'package:playmateapp/pages/ProfilePage.dart';
 import 'package:playmateapp/pages/SplashPage.dart';
 import 'Theme/darkmode.dart';
 import 'Theme/lightmode.dart';
@@ -21,6 +23,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/home': (context) =>  HomePage(),
+        '/profile': (context) =>  ProfilePage(),
+        '/forgotpassword': (context) =>  ForgotPage(),
 
       },
     );

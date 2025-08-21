@@ -72,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       GestureDetector(
-                        onTap:()=> Navigator.pushNamed(context,'/forgotpage'),
+                        onTap:()=> Navigator.pushNamed(context,'/forgotpassword'),
                         child: Text(
                           "Forgot password?",
                           style: TextStyle(

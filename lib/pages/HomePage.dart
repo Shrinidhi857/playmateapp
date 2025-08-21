@@ -46,6 +46,9 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
 
                 SizedBox(height: 30),
                 GestureDetector(
+                  onTap: (){
+                  Navigator.pushNamed(context, '/profile');
+                  },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
